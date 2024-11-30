@@ -1,0 +1,118 @@
+body{
+    background-image: url(1351253.png);
+    background-size: auto;
+    
+}
+
+
+
+head{
+    img{
+        border-radius:12px ;
+    }
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10pxpx;
+    overflow: hidden; 
+    background-color: #387058;
+    font-family: cursive;
+    border-radius: 20px;
+    height: 50px;
+    
+}
+
+ul img{
+    margin-right: 15px; /* Memberikan sedikit jarak antara logo dan item navigasi */
+    width: 50px; /* Sesuaikan ukuran logo */
+    height: auto;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display:inline-block;
+    color: #fffefd;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+    background-color:                                                       rgb(133, 194, 145); 
+    
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #0c3e0d;
+    min-width: 160px;
+    box-shadow: 20px 8px 16px rgba(255, 0, 0, 0.2); 
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a{
+    color: #FBF8EF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(77, 61, 37);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.konten {
+    display: none;
+}
+
+/* Tampilkan konten yang ditargetkan */
+.konten:target {
+    display: block;
+}
+
+.konten{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: aliceblue;
+    background-color:#193920;
+    border-radius:5px;
+   
+}
+
+img{
+    height: auto;
+    width: auto;
+    border: 5 px rgb(70, 156, 70);
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    
+}
+
+.a{
+    width: 1200px;
+}
+
+.as {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    height: 240px;
+}
+
